@@ -1,0 +1,34 @@
+.bookstore{
+    border: 1px solid rgb(236, 235, 233);
+    background-color: rgba(103, 214, 159, 0.493);
+    border-radius: 10px ;
+    padding: 10px ;
+    margin-top: 10px; line-height: 15px;
+
+}
+.bookstore:hover{
+    background-color: rgb(17, 204, 79);
+    color: rgb(255, 253, 239);
+}
+.imgsize{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+}
+.btndescription{
+     color:aqua;
+     background-color: black;
+     border: 1px solid brown;
+     border-radius: 10px;
+     width: 140px;
+     height: 40px;
+}
+.btndescription:hover{
+     color: rgb(255, 255, 255);
+     background-color: rgb(255, 123, 0);
+}
+.iconsocial{
+     font-size: 2rem;
+     margin-left: 15px;
+     text-align: center;
+}
