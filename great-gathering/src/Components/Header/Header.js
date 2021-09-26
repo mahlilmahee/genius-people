@@ -6,11 +6,11 @@ const Header = () => {
         <div>
            <header>
                <div className='headerimg'>
-         <h2 className='textcolor' className="headline">Welcome to The Cricket Paradise  </h2>
-         <h2 className="textcolor"> choose your player to make the best team in the world.
+         <h2 className='textcolor' className="headline">Welcome to The  Writters Paradise  </h2>
+         <h2 className="textcolor"> Choose your favourite writters to read their books free.
          </h2>
         
-         <h1 className='textcolorOther'> Total Budget : $100M</h1>
+         <h1 className='textcolorOther'> Total Budget : $1M</h1>
                </div>
            </header>
         </div>

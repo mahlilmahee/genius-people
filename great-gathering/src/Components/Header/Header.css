@@ -10,13 +10,13 @@
     
 }
 .textcolor{
-     color: rgba(243, 247, 10, 0.918);
+     color: rgb(255, 255, 255);
      font-weight: 900;
 }
 .headline{
-      color: rgb(43, 255, 0);
+      color: rgb(254, 254, 255);
      
 }
 .textcolorOther{
-     color: white;
+     color: rgb(94, 255, 0);
 }
