@@ -1,0 +1,8 @@
+.btnBuy{
+width: 140px;
+height: 40px;
+background-color: rgb(238, 111, 0);
+color: white;
+border: 1px solid forestgreen;
+border-radius: 20px;
+}

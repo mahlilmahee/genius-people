@@ -9,17 +9,23 @@ const Select = () => {
         .then(res=>res.json())
         .then(player=>setPlayers(player))
     },[])
-    
+    const [cart,setCart]=useState([]);
+    const selectPlayer=(player)=>{
+        const newCart=[...cart,player];
+        setCart(newCart);
+
+    }
+
     return (
         <div className="mainPart">
             <div className="bookSectionOnly" >
     {
         
-        Players.map(player=> <Player player={player} key={player.key}> </Player>)
+        Players.map(player=> <Player player={player} key={player.key} selectPlayer={selectPlayer}>  </Player>)
           
     }
     </div>
-    <Cart></Cart>
+    <Cart cart={cart}></Cart>
         </div>
     );
 };

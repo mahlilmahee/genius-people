@@ -6,7 +6,7 @@ const Header = () => {
         <div>
            <header>
                <div className='headerimg'>
-         <h2 className='textcolor' className="headline">Welcome to The Criket Paradise  </h2>
+         <h2 className='textcolor' className="headline">Welcome to The Cricket Paradise  </h2>
          <h2 className="textcolor"> choose your player to make the best team in the world.
          </h2>
         

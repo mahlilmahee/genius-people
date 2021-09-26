@@ -1,0 +1,25 @@
+.lastimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.selectedPlayer{
+    display: flex;
+    justify-content:center; 
+    
+    border: 1px solid rgb(248, 168, 20);
+    align-items: flex-start;
+    background-color: rgb(212, 240, 196);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+    
+}
+.playername{
+    margin-left: 10px;
+}
+.selectedPlayer:hover{
+    background-color: rgb(224, 249, 253);
+    color: purple;
+}

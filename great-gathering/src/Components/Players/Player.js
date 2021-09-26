@@ -8,7 +8,7 @@ const Player = (props) => {
     const {player}=props;
     
     const { name,category,value,img,age}=player;
-    
+   
     return (
         <div className='bookstore'> 
         <img className='imgsize' src={img} /> 
@@ -16,7 +16,7 @@ const Player = (props) => {
             <h4>Category: { category}</h4>
             <h4> Age: {age}</h4>
             <h4>Prize: {value}</h4>
-            <button className="btndescription" ><FontAwesomeIcon icon={ faShoppingCart } />Add to Cart</button><br></br><br/>
+            <button className="btndescription" onClick={()=>props.selectPlayer(props.player)} ><FontAwesomeIcon icon={ faShoppingCart } />Add to Cart</button><br></br><br/>
             <div className='icon'>
             <FontAwesomeIcon className="iconsocial" icon={faFacebook} />
             <FontAwesomeIcon className="iconsocial" icon={faTwitter}/>

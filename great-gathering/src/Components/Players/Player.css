@@ -7,12 +7,12 @@
 
 }
 .bookstore:hover{
-    background-color: rgb(17, 204, 79);
-    color: rgb(255, 253, 239);
+    background-color: rgb(74, 236, 215);
+    color: rgb(255, 254, 242);
 }
 .imgsize{
-     width: 150px;
-     height: 150px;
+     width: 100px;
+     height: 100px;
      border-radius: 50%;
 }
 .btndescription{
