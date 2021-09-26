@@ -1,5 +1,6 @@
 import React from 'react';
 import './Player.css';
+// adding font for social media and marketing 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook ,faTwitter} from "@fortawesome/free-brands-svg-icons"

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css';
+// adding icon link 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser} from '@fortawesome/free-solid-svg-icons';
 import SelectedPlayer from '../SelectedPlayer/SelectedPlayer';
