@@ -13,7 +13,7 @@ const Cart = (props) => {
         <div>
             <h3 className="totaladded"> <FontAwesomeIcon icon={faUser}/> Player added:{cart.length} </h3>
             
-            <h3 className="totaladdedagain"> Total cost:{total} $ </h3> 
+            <h3 className="totaladdedagain"> Total cost: $ {total}  </h3> 
             {/* doing the cart dynamic  */}
            {
                cart.map(player=><SelectedPlayer player={player} key={player.key} ></SelectedPlayer>)
