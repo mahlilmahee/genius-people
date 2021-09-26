@@ -1,13 +1,13 @@
 .bookstore{
     border: 1px solid rgb(236, 235, 233);
-    background-color: rgba(103, 214, 159, 0.493);
+    background-color: rgba(241, 250, 246, 0.493);
     border-radius: 10px ;
     padding: 10px ;
     margin-top: 10px; line-height: 15px;
 
 }
 .bookstore:hover{
-    background-color: rgb(74, 236, 215);
+    background-color: rgba(73, 59, 46, 0.842);
     color: rgb(255, 254, 242);
 }
 .imgsize{

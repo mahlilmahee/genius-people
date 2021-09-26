@@ -15,7 +15,7 @@ const Player = (props) => {
             <h4> Name: {name}</h4>
             <h4>Category: { category}</h4>
             <h4> Age: {age}</h4>
-            <h4>Prize: {value}</h4>
+            <h4>Salary Per Year: {value}$</h4>
             <button className="btndescription" onClick={()=>props.selectPlayer(props.player)} ><FontAwesomeIcon icon={ faShoppingCart } />Add to Cart</button><br></br><br/>
             <div className='icon'>
             <FontAwesomeIcon className="iconsocial" icon={faFacebook} />

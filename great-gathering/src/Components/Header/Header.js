@@ -10,7 +10,7 @@ const Header = () => {
          <h2 className="textcolor"> choose your player to make the best team in the world.
          </h2>
         
-         <h1 className='textcolor'> Total Budget : $100M</h1>
+         <h1 className='textcolorOther'> Total Budget : $100M</h1>
                </div>
            </header>
         </div>
