@@ -11,7 +11,7 @@ const Cart = (props) => {
     }
     return (
         <div>
-            <h3 className="totaladded"> <FontAwesomeIcon icon={faUser}/> Player added:{cart.length} </h3>
+            <h3 className="totaladded"> <FontAwesomeIcon icon={faUser}/> Person added:{cart.length} </h3>
             
             <h3 className="totaladdedagain"> Total cost: $ {total}  </h3> 
             {/* doing the cart dynamic  */}
