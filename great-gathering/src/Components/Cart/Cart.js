@@ -9,7 +9,6 @@ const Cart = (props) => {
     for(const player of cart){
         total=total+player.value;
     }
-    console.log(cart)
     return (
         <div>
             <h3> <FontAwesomeIcon icon={faUser}/> Player added:{cart.length} </h3>

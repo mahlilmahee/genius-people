@@ -8,10 +8,8 @@ function App() {
  
   return (
     <div className="App">
-   
    <Header></Header>
    <Select></Select>
-   
     </div>
   );
 }

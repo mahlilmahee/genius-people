@@ -11,8 +11,17 @@ const Select = () => {
     },[])
     const [cart,setCart]=useState([]);
     const selectPlayer=(player)=>{
-        const newCart=[...cart,player];
-        setCart(newCart);
+        
+     const idOfPlayer=player.key; 
+     console.log(idOfPlayer);
+     const matchingElement=cart.find(player=>player.key===idOfPlayer);
+     if(!matchingElement){
+         const newCart=[...cart,player];
+                setCart(newCart);
+     }
+          else{
+
+          }      
 
     }
 
