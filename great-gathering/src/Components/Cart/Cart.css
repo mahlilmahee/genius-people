@@ -2,12 +2,12 @@
 width: 140px;
 height: 40px;
 background-color: rgb(238, 111, 0);
-color: white;
+color: rgb(15, 14, 14);
 border: 1px solid forestgreen;
 border-radius: 20px;
 }
 .totaladded{
-    color: white;
+    color: rgb(26, 24, 24);
 }
 .totaladdedagain{
     color: black;
