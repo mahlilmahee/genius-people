@@ -7,7 +7,7 @@ import { faFacebook ,faTwitter} from "@fortawesome/free-brands-svg-icons"
 const Player = (props) => {
     const {player}=props;
     
-    const { name,category,value,img,age}=player;
+    const { name,category,value,img,age,country}=player;
    
     return (
         <div className='bookstore'> 
@@ -15,6 +15,7 @@ const Player = (props) => {
             <h4> Name: {name}</h4>
             <h4>Category: { category}</h4>
             <h4> Age: {age}</h4>
+            <h4>Team:{country}</h4>
             <h4>Salary Per Year: {value}$</h4>
             <button className="btndescription" onClick={()=>props.selectPlayer(props.player)} ><FontAwesomeIcon icon={ faShoppingCart } />Add to Cart</button><br></br><br/>
             <div className='icon'>
