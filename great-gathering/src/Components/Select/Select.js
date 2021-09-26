@@ -14,7 +14,7 @@ const Select = () => {
     const selectPlayer=(player)=>{
         
      const idOfPlayer=player.key; 
-     console.log(idOfPlayer);
+    //  console.log(idOfPlayer);
      const matchingElement=cart.find(player=>player.key===idOfPlayer);
      if(!matchingElement){
          const newCart=[...cart,player];
