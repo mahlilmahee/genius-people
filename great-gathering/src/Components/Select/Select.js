@@ -3,6 +3,7 @@ import Cart from '../Cart/Cart';
 import './Select.css';
 import Player from '../Players/Player';
 const Select = () => {
+    // data handling process 
     const [Players, setPlayers]=useState([]);
     useEffect(()=>{
         fetch('./cricketer.json')
@@ -34,6 +35,7 @@ const Select = () => {
           
     }
     </div>
+    {/* the cart seciton  */}
     <Cart cart={cart} ></Cart>
         </div>
     );

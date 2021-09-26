@@ -17,6 +17,7 @@ const Player = (props) => {
             <h4> Deid at:{age} years</h4>
             <h4>Country:{country}</h4>
             <h4>Salary Per Year: {value}$</h4>
+            {/* adding button and its handler for data handling  */}
             <button className="btndescription" onClick={()=>props.selectPlayer(props.player)} ><FontAwesomeIcon icon={ faShoppingCart } />Add to Cart</button><br></br><br/>
             <div className='icon'>
             <FontAwesomeIcon className="iconsocial" icon={faFacebook} />
