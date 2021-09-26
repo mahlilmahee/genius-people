@@ -15,7 +15,7 @@ const Cart = (props) => {
             
             <h3 className="totaladdedagain"> Total cost:{total} $ </h3> 
            {
-               cart.map(player=><SelectedPlayer player={player} ></SelectedPlayer>)
+               cart.map(player=><SelectedPlayer player={player} key={player.key} ></SelectedPlayer>)
            }
            <button className="btnBuy"> Buy Now </button>     
         </div>
